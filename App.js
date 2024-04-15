@@ -37,39 +37,48 @@ const App = () => {
 const HomeScreen = ({ navigation }) => {
   return (
     <SafeAreaView style={{ flex: 1, justifyContent: "space-around", alignItems: "center" }}>
+
       <View style={{ flexDirection: 'row', marginBottom: 10 }}>
-    <View style={{ flex: 1, marginRight: 10 ,  alignItems: "center"}}>
-      <Button title="Hello_world" onPress={() => navigation.navigate('Bai1')} />
-    </View>
-    <View style={{ flex: 1,  alignItems: "center" }}>
-      <Button title="Capturing_taps" onPress={() => navigation.navigate('Bai2')} />
-    </View>
-  </View>
-  <View style={{ flexDirection: 'row' }}>
-    <View style={{ flex: 1, marginRight: 10 ,  alignItems: "center"}}>
-      <Button title="Custom_Component" onPress={() => navigation.navigate('Bai3')} />
-    </View>
-    <View style={{ flex: 1,  alignItems: "center" }}>
-      <Button title="State_Props" onPress={() => navigation.navigate('Bai4')} />
-    </View>
-  </View>
-  <View style={{ flexDirection: 'row', marginTop: 10 }}>
-    <View style={{ flex: 1, marginRight: 10 , alignItems: "center"}}>
-      <Button title="Styling" onPress={() => navigation.navigate('Bai5')} />
-    </View>
-    <View style={{ flex: 1 ,  alignItems: "center"}}>
-      <Button title="Scrollable_content" onPress={() => navigation.navigate('Bai6')} />
-    </View>
-  </View>
-  <View style={{ flexDirection: 'row' }}>
-    <View style={{ flex: 1, marginRight: 10 ,  alignItems: "center"}}>
-      <Button title="Building_a_form" onPress={() => navigation.navigate('Bai7')} />
-    </View>
-    <View style={{ flex: 1 ,  alignItems: "center"}}>
-      <Button title="Long_lists" onPress={() => navigation.navigate('Bai8')} />
-    </View>
-  </View>
-      <Button title="Lab1p2" onPress={() => navigation.navigate('Lab1p2')} />
+        <View style={{ flex: 1,}}>
+          <Button title="Hello_world" onPress={() => navigation.navigate('Bai1')} />
+        </View>
+
+        <View style={{ flex: 1,}}>
+          <Button title="Capturing_taps" onPress={() => navigation.navigate('Bai2')} />
+        </View>
+      </View>
+
+      <View style={{ flexDirection: 'row' }}>
+        <View style={{ flex: 1,}}>
+          <Button title="Custom_Component" onPress={() => navigation.navigate('Bai3')} />
+        </View>
+
+        <View style={{ flex: 1,}}>
+          <Button title="State_Props" onPress={() => navigation.navigate('Bai4')} />
+        </View>
+      </View>
+      
+      <View style={{ flexDirection: 'row', marginTop: 10 }}>
+      <View style={{ flex: 1,}}>
+          <Button title="Styling" onPress={() => navigation.navigate('Bai5')} />
+        </View>
+        
+        <View style={{ flex: 1,}}>
+          <Button title="Scrollable_content" onPress={() => navigation.navigate('Bai6')} />
+        </View>
+      </View>
+
+      <View style={{ flexDirection: 'row' }}>
+        <View style={{ flex: 1,}}>
+          <Button title="Building_a_form" onPress={() => navigation.navigate('Bai7')} />
+        </View>
+
+        <View style={{ flex: 1,}}>
+          <Button title="Long_lists" onPress={() => navigation.navigate('Bai8')} />
+        </View>
+      </View>
+
+      <Button title="Calculator" onPress={() => navigation.navigate('Lab1p2')} />
     </SafeAreaView>
   );
 };
