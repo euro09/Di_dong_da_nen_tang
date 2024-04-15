@@ -12,6 +12,6 @@
   Bài thực hành 1 - 18/04/2023
 </p>
 
-[![Xem video](http://img.youtube.com/vi/f8oIEpte338/0.jpg)](http://www.youtube.com/watch?v=f8oIEpte338)
+[![8 bài và Lab_2](http://img.youtube.com/vi/f8oIEpte338/0.jpg)](http://www.youtube.com/watch?v=f8oIEpte338)
 
 ---
