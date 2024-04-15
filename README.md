@@ -12,6 +12,6 @@
   Bài thực hành 1 - 18/04/2023
 </p>
 
-[<img src="https://youtu.be/f8oIEpte338>/hqdefault.jpg" width="600" height="300"/>](https://youtu.be/f8oIEpte338)
+[![Xem video](http://img.youtube.com/vi/f8oIEpte338/0.jpg)](http://www.youtube.com/watch?v=f8oIEpte338)
 
 ---
