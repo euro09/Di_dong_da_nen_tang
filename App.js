@@ -10,7 +10,7 @@ import Bai5 from "./TH_1/Styling";
 import Bai6 from "./TH_1/Scrollable_content";
 import Bai7 from "./TH_1/Building_a_form";
 import Bai8 from "./TH_1/Long_lists";
-// import Lab1p2 from "./screens/Lab1p2";
+import Lab1p2 from "./TH_1/Calculator";
 
 
 const Stack = createStackNavigator();
@@ -28,7 +28,7 @@ const App = () => {
         <Stack.Screen name="Bai6" component={Bai6} />
         <Stack.Screen name="Bai7" component={Bai7} />
         <Stack.Screen name="Bai8" component={Bai8} />
-        {/* <Stack.Screen name="Lab1p2" component={Lab1p2}/> */}
+        <Stack.Screen name="Lab1p2" component={Lab1p2}/>
       </Stack.Navigator>
     </NavigationContainer>
   );
@@ -69,7 +69,7 @@ const HomeScreen = ({ navigation }) => {
       <Button title="Long_lists" onPress={() => navigation.navigate('Bai8')} />
     </View>
   </View>
-      {/* <Button title="Lab1p2" onPress={() => navigation.navigate('Lab1p2')} /> */}
+      <Button title="Lab1p2" onPress={() => navigation.navigate('Lab1p2')} />
     </SafeAreaView>
   );
 };
